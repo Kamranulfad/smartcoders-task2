@@ -116,7 +116,7 @@
   color: yellow;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .nearby-container {
     padding: 1rem;
   }
