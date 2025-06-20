@@ -1,0 +1,126 @@
+.brand-container {
+  background-color: #121f28;
+  padding: 2rem 3rem;
+}
+
+.brand-heading h3 {
+  color: white;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: yellow;
+}
+
+.logo-slider {
+  background-color: #1b2936;
+  overflow: hidden;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-radius: 1rem;
+  position: relative;
+}
+.cart-item{
+    
+    width: 12rem;
+    height: 12rem;
+    border-radius: 10px;
+    background-color: #0d1829;
+}
+.brand-logo {
+  width: 60px;         
+  height: 60px;        
+  object-fit: contain; 
+  display: block;
+  margin: 0 auto 10px; 
+  padding-top:2rem ;
+}
+
+.slick-slide > div {
+  padding: 0 1.3rem; 
+  background-color:transparent;
+  border-radius: 5%;
+}
+
+ .car-container{
+  border: 1rem solid #1b2936;
+  border-radius: 1%;
+  box-shadow:#1b2936 ;
+  background-color: #1b2936;
+ }
+
+.cart-title{
+  color: white;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.cart-child{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.logo-track {
+  display: flex;
+  width: calc(200%);
+  animation: scroll 30s linear;
+  animation-iteration-count: infinite;
+}
+.logo-slider:hover .logo-track {
+  animation-play-state: paused;
+}
+.slick-slide{
+  background-color: transparent;
+}
+.logo-item {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.logo-item {
+  width: 160px;
+  height: 100px;
+  background-color: #121f28;
+  margin: 0 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  flex-shrink: 0;
+}
+
+.logo-item img {
+  width: 70%;
+  height: auto;
+  object-fit: contain;
+}
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+/* @media (max-width: 768px) {
+  .logo-item {
+    width: 120px;
+    height: 80px;
+    margin: 0 0.5rem;
+  }
+} */
+
+@media (max-width: 480px) {
+  .brand-container {
+    padding: 1rem;
+  }
+
+  .logo-item {
+    width: 100px;
+    height: 70px;
+  }
+
+  .brand-heading h3 {
+    font-size: 1.2rem;
+  }
+}

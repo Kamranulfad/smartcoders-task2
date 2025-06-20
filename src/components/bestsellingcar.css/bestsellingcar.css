@@ -1,0 +1,145 @@
+/* .nearby-container {
+  background-color: #121f28;
+  padding: 2rem 3rem;
+  color: white;
+}
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.section-header h2 {
+  font-size: 1.5rem;
+  margin: 0;
+  color: yellow;
+}
+.section-header a {
+  font-size: 0.9rem;
+  color: yellow;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.section-header a:hover {
+  text-decoration: underline;
+}
+.car-list {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.car-card {
+  background-color: #1b2936;
+  border-radius: 1rem;
+  overflow: hidden;
+  width: calc(33.33% - 1.3rem);
+  min-width: 250px;
+  transition: transform 0.3s ease;
+  border: 2px solid #334455;
+}
+
+.car-card:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+.car-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-bottom: 1px solid #334455;
+}
+
+.car-info {
+  padding: 1rem;
+}
+
+.car-info h4 {
+  font-size: 1rem;
+  margin: 0 0 0.4rem;
+  color: #b2b9c0;;
+}
+
+
+
+.variant-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.25rem;
+}
+
+.variant {
+  font-size: 1.5rem;
+  margin: 0 0 0.5rem;
+  color:whitesmoke;
+}
+
+.price {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: yellow;
+}
+
+.features{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.feature-link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-right: 8px;
+  padding: 4px 10px;
+  background-color: transparent;
+  border-radius: 12px;
+  color: #b2b9c0;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: all 0.2s ease;
+}
+
+.feature-link .nearby-icon {
+  display: flex;
+  align-items: center;
+  font-size: 1 rem;
+  color: yellow;
+}
+
+
+@media (max-width: 480px) {
+  .nearby-container {
+    padding: 1rem;
+  }
+
+  .car-list {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .car-card {
+    width: 100%;
+  }
+
+  .section-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .feature-link {
+    font-size: 13px;
+    padding: 3px 8px;
+  }
+
+  .features {
+    gap: 6px;
+    justify-content: flex-start;
+  }
+
+} */

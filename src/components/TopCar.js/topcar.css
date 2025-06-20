@@ -1,0 +1,162 @@
+.top-cars-slider {
+  background-color: #151f2e;
+  color: white;
+  padding: 2rem 1rem;
+  padding-bottom: 2rem;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.section-header h2 {
+  font-size: 1.8rem;
+  color: yellow;
+  margin: 0;
+}
+
+.filter-dropdown {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  border: 0.5px solid #334455;
+  outline: none;
+  background-color: transparent;
+  color: yellow;
+}
+
+.slider-container {
+  padding: 0 1rem;
+}
+
+.car-slide {
+  padding: 1rem;
+  text-align: center;
+}
+
+.car-slide img {
+  width: 100%;
+  height: 260px; 
+  object-fit: cover;
+  /* border-radius: 1rem; */
+  transition: transform 0.3s ease;
+}
+
+.car-slide img:hover {
+  transform: scale(1.03);
+}
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 42px;
+}
+.slick-next:before{
+    position: relative;
+    right: 2rem;
+}
+.slick-prev:before{
+    position: relative;
+    left:  0.5rem;
+    z-index: 1;
+    
+}
+
+
+.car-caption {
+  margin-top: 0.75rem;
+}
+
+.car-caption h4 {
+  margin: 0.3rem 0;
+  font-size: 1.4rem; 
+  color: #fff;
+}
+
+.car-caption p {
+  margin: 0;
+  font-size: 1.1rem; 
+  color: #ccc;
+}
+.loading-btn {
+  display: block;
+  margin: 2rem auto 0 auto;
+  background-color: #ffcc00;
+  color: #151f2e;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+}
+
+.loading-btn:hover {
+  background-color: #e6b800;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+.loading-btn:active {
+  transform: scale(0.98);
+}
+
+@media (max-width: 768px) {
+  .section-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .section-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .filter-dropdown {
+    width: 100%;
+    font-size: 0.95rem;
+  }
+
+  .car-slide img {
+    height: 220px; 
+  }
+
+  .car-caption h4 {
+    font-size: 1.2rem;
+  }
+
+  .car-caption p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .top-cars-slider {
+    padding: 1.5rem 0.75rem;
+  }
+
+  .car-slide img {
+    height: 200px; /* larger for mobile */
+  }
+
+  .section-header h2 {
+    font-size: 1.3rem;
+  }
+
+  .filter-dropdown {
+    font-size: 0.9rem;
+  }
+
+  .car-caption h4 {
+    font-size: 1.1rem;
+  }
+
+  .car-caption p {
+    font-size: 0.95rem;
+  }
+}

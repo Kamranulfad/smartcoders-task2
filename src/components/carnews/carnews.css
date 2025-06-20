@@ -1,0 +1,91 @@
+/* src/components/CarNews.css */
+
+.car-news {
+  background-image: url('https://golden-auto-website.vercel.app/assets/bannerImage-B7KufGfZ.png'); 
+  background-size: cover;
+  background-position: center;
+  padding: 6rem 2rem;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 450px;
+  position: relative;
+}
+
+.news-content {
+  max-width: 500px;
+  background-color: transparent;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.news-content h2 {
+  color: #ffc400;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.news-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.news-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s ease;
+}
+
+.register-btn {
+  background-color: white;
+  color: #151f2e;
+}
+
+.register-btn:hover {
+  background-color: #ddd;
+}
+
+.post-btn {
+  background-color: red;
+  color: white;
+}
+
+.post-btn:hover {
+  background-color: #c40000;
+}
+
+/* ✅ Responsive */
+@media (max-width: 768px) {
+  .car-news {
+    justify-content: center;
+    padding: 4rem 1rem;
+  }
+
+  .news-content {
+    padding: 1.5rem;
+  }
+
+  .news-content h2 {
+    font-size: 1.6rem;
+  }
+
+  .news-content p {
+    font-size: 1rem;
+  }
+
+  .btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.95rem;
+  }
+}
